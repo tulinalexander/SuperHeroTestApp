@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorContacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rvHeroes"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/toolbarHeroes"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbarHeroes"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="?attr/colorPrimary"
+       android:minHeight="?attr/actionBarSize"
+       android:theme="?attr/actionBarTheme"
+       app:titleTextColor="@android:color/white" />
+
+   <android.support.design.widget.CoordinatorLayout
+       android:id="@+id/heroesCoordinator"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <android.support.design.widget.FloatingActionButton
+          android:id="@+id/addButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|end"
+          android:layout_margin="@dimen/fab_margin"
+          android:src="@drawable/ic_add_24dp"
+          app:backgroundTint="@android:color/holo_blue_light"
+          app:pressedTranslationZ="12dp" />
+   </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

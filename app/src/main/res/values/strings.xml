@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SuperHero</string>
+    <string name="app_widget_name">SuperHero Widget</string>
+    <string name="app_widget_no_data">Нет данных</string>
+    <!--Menu-->
+
+    <string name="menuitem_edit">Редактировать</string>
+    <string name="menuitem_delete">Удалить</string>
+    <string name="action_settings">Настройки</string>
+    <!--Add_edit_fragment-->
+
+    <string name="add_label">Создание нового героя</string>
+    <string name="edit_label">Редактирование героя</string>
+    <string name="hint_name_required">Имя(обязательное)</string>
+    <string name="hint_real_name">Реальное имя</string>
+    <string name="hint_description">Описание</string>
+    <string name="hero_added">Контакт успешно добавлен</string>
+    <string name="hero_not_added">Контакт не был добавлен</string>
+    <string name="hero_updated">Контакт обновлён</string>
+    <string name="hero_not_updated">Контакт не был обновлён</string>
+    <string name="invalid_query_uri">Invalid query Uri: </string>
+    <string name="invalid_insert_uri">Invalid insert Uri: </string>
+    <string name="invalid_update_uri">Invalid update Uri: </string>
+    <string name="invalid_delete_uri">Invalid delete Uri: </string>
+    <string name="insert_failed">Insert failed:</string>
+    <string name="hero_no_field">Досье не обнаружено</string>
+    <string-array name="universe">
+        <item>Marvel</item>
+        <item>DC</item>
+    </string-array>
+
+    <!--Dialog_fragment-->
+    <string name="fragment_dialog_title">Удаление</string>
+    <string name="fragment_dialog_message">Вы уверены, что хотите удалить запись?</string>
+    <string name="fragment_dialog_cancel">Отмена</string>
+    <string name="fragment_dialog_positive">Да</string>
+    <string name="add_edit_universe">Вселенная:</string>
+    <string name="add_edit_name">Имя:</string>
+    <string name="add_edit_description">Описание:</string>
+    <string name="add_edit_real_name">Реальное имя:</string>
+
+</resources>
